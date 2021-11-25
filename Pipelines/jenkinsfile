@@ -1,7 +1,7 @@
 node {
     // some block
 
- stage('Git ChechOut') {
+ stage('Git CheckOut') {
   git branch: 'main', url: 'https://github.com/amitvashisttech/devops-mindtree-25-Nov-2021.git' 
  }
  
